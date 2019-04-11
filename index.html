@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"  href="assets/style.css">
+    <script async src="assets/script.js"></script>
+    <title>detection de visage</title>
+</head>
+<body>
+    <div id="login-box">
+      <h1>FACE ANALYSIS</h1>
+      <div class="left">
+        <form>
+        <input type="text" name="commentaire" id="mytextarea" placeholder="URL d'une image à analyser" />
+        <input type="submit" id="bouton" name="envoyer" value="ANALYSER" />
+        </form>
+      </div>
+    </div>
+
+    <div id="login-box2">
+        <p id="detail">DETAILS</p>
+        <div>
+            <ul>
+                <li id="genre"></li>
+                <li id="age"></li>
+                <li id="sourire"></li>
+            </ul>
+        </div>
+        <div id="zone_image">
+            <img id="myImg" src="">
+        </div>
+    </div>
+
+</body>
+</html>
